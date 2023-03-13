@@ -1,0 +1,30 @@
+.modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal_card {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.modal_card button {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+}
